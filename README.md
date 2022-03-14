@@ -23,7 +23,7 @@ ___
 	<li>Paste your access key into mapanimation_round_trip.js</li>
 	<li>Load index.html on your internet browser</li>
 	<li>Click on Show stops between MIT and Harvard button</li>
-	<li>To stop the anamiation, close your internet browser</li>
+	<li>To stop the animation, close your internet browser</li>
 </ul>
 
 ### **Support**:
