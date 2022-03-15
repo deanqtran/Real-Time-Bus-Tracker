@@ -15,7 +15,7 @@ const busStops = [
 ];
 
 // TODO: add your own access token
-mapboxgl.accessToken = 'PASTE YOUR MAPBOX ACCESS KEY HERE';
+mapboxgl.accessToken = 'pk.eyJ1IjoiZGVhbnRyYW4iLCJhIjoiY2wwcTA5YjUyMjVqcDNpczVzdmtpMm81OSJ9.ionttsD5kyTamqh8dIe_rA';
 
 // This is the map instance
 let map = new mapboxgl.Map({
@@ -24,6 +24,9 @@ let map = new mapboxgl.Map({
   center: [-71.104081, 42.365554],
   zoom: 14,
 });
+
+// Add zoom and rotation controls to the map.
+map.addControl(new mapboxgl.NavigationControl());
 
 // TODO: add a marker to the map at the first coordinates in the array busStops. The marker variable should be named "marker"
 var marker = new mapboxgl.Marker()
