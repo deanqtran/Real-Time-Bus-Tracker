@@ -49,7 +49,7 @@ function move() {
     else if (direction == -1 && counter < 0) {
 		direction = +1;
 		counter++;
-		//return; // this line is used to stop after 1-round trip; commenting this line out will continiously move forever until close the browser
+		//return; // this line is used to stop after 1-round trip; commenting out this line will continiously move forever until close the browser
 	}
 
 	marker.setLngLat(busStops[counter]);
