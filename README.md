@@ -1,8 +1,8 @@
 # Real-Time-Bus-Tracker
 Add animation to the map of stop and go at each bus stop between MIT and Harvard
 ___
-### **Description**: Week 09: Pair of Eyes Movement Tracking Mouse-Cursor Coding
-<p>Demonstrate web application using JavaScript, HTML, and CSS to move the pair of eyes:<p>
+### **Description**: Week 09: Working With The DOM to Add Animation to Maps
+<p>Demonstrate web application using JavaScript, HTML, and CSS to move Map Marker:<p>
 <ul>
   <li>HTML: div element</li>
   <li>Stylesheet: class</li>
@@ -23,7 +23,7 @@ ___
 	<li>Paste your access key into mapanimation_round_trip.js</li>
 	<li>Load index.html on your internet browser</li>
 	<li>Click on Show stops between MIT and Harvard button</li>
-	<li>To stop the anamiation, close your internet browser</li>
+	<li>To stop the animation, close your internet browser</li>
 </ul>
 
 ### **Support**:
